@@ -1,0 +1,102 @@
+/* Increase the size of the map*/
+body,
+html,
+.off-canvas-content {
+    height: 100%;
+    width: 100%;
+}
+
+/* Top title bar */
+.has-tip {
+    border-bottom: 0!important;
+}
+
+.recenter-map {
+    color: white;
+}
+
+.recenter-map:hover {
+    cursor: pointer;
+}
+
+/* google maps */
+#map {
+    height: calc(100% - 41px);
+    width: 100%;
+}
+
+/* off-canvas navbar */
+.filter-input {
+    padding-right: 0;
+}
+
+.filter-button {
+    padding-left: 0;
+}
+
+#pano {
+    width: 400px;
+    height: 400px;
+}
+
+#offCanvas {
+    background: lightgray;
+}
+
+.list-divider {
+    margin: 0;
+}
+
+.location {
+    border: 1px solid darkgrey;
+    padding: 15px 0 10px 0;
+}
+
+.location:hover {
+    background: #c0c0c0 !important;
+    cursor: pointer;
+}
+
+.nav-header {
+    padding: 10px;
+    color: black;
+    background: lightgrey;
+}
+
+.location-list {
+    margin-top: 15px;
+}
+
+.nav-banner {
+    background:white;
+    margin: 15px 0 25px 0;
+}
+
+.location-label {
+    text-align: center;
+}
+
+.filter-list {
+    margin-top: 15px;
+}
+
+.filter-location {
+    padding-left: 10px;
+}
+.filter-description {
+    font-size: 8pt;
+}
+/* Used for infowindow list*/
+
+.similar-locations {
+    max-width:  480px;
+    padding:    10px;
+    margin-bottom: 0;
+    border: 1px solid darkgrey;
+}
+
+.foursquare-des {
+    max-width: 480px;
+    margin-left: 1px;
+}
+

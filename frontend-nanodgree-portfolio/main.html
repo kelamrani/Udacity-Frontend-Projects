@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Portfolio" content="Front-End Portfolio">
+  <meta name="author" content="Robert Naccache">
+  <meta name="keywords" content="HTML, CSS, Front-End, Udacity">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
+  <script src="js/jquery-3.2.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <title>Udacity Portfolio - Robert</title>
+</head>
+
+<body class="main-body">
+    <div class="container">
+
+        <!-- header content -->
+        <header class="main-header row">
+            <div class="logo-div col-xs-4">
+              <img class="logo-image" src="img/logo.svg" alt="Butterfly logo">
+            </div>
+            <div class="header-title col-xs-8 text-right text-uppercase">
+                <h1 class="author">Robert Naccache</h1>
+                <h3 class="quote">more than just aesthetics</h3>
+            </div>
+        </header>
+
+        <!-- banner section -->
+        <section class="banner-section row">
+            <div class="banner-div col-xs-12">
+              <hr>
+                <img class="banner-picture img-responsive" src="img/header.png" srcset="img/header-382.png 382w, img/header-720.png 720w, img/header-992.png 992w" sizes="100vw"  alt="Rainbow Computer Banner">
+            </div>
+        </section>
+
+        <!-- description for articles -->
+        <section class="description-div row">
+            <div class=" col-xs-12">
+                <h2 class="portfolio-description">Featured Work</h2>
+            </div>
+        </section>
+
+        <!-- contains projects -->
+        <!-- TODO: Update images with unique images for each project -->
+        <main class="portfolio-list row">
+            <article class="article1 project col-xs-12 col-sm-8 col-md-4">
+                <div class="project-image">
+                    <img class="article-picture img-responsive" src="img/team_mini.png" data-toggle="modal" data-target=".article1-modal" srcset="img/team_mini-382.png 382w, img/team_mini-720.png 720w, img/team_mini-992.png 992w" sizes="100vw"  alt="First Project Picture">
+                </div>
+                <div class="background-fog"></div>
+                <a class="project-link" href="https://github.com/udacity/Appify" target="_blank">
+                    <div class="project-description text-center">
+                        <p class="project-text text-uppercase">Appify</p>
+                        <p class="project-link">https://github.com/udacity/Appify</p>
+                    </div>
+                </a>
+            </article>
+            <article class="article2 project col-xs-12 col-sm-4 col-md-4">
+                <div class="project-image">
+                    <img class="article-picture img-responsive" src="img/team_mini.png" data-toggle="modal" data-target=".article2-modal" srcset="img/team_mini-382.png 382w, img/team_mini-720.png 720w, img/team_mini-992.png 992w" sizes="100vw" alt="Second Project Picture">
+                </div>
+                <div class="background-fog"></div>
+                <a class="project-link" href="https://github.com/udacity/Sunflower" target="_blank">
+                    <div class="project-description text-center">
+                        <p class="project-text text-uppercase">Sunflower</p>
+                        <p class="project-link">https://github.com/udacity/Sunflower</p>
+                    </div>
+                </a>
+            </article>
+            <article class="article3 project col-xs-12 col-sm-4 col-md-4">
+                <div class="project-image">
+                    <img class="article-picture img-responsive" src="img/team_mini.png" data-toggle="modal" data-target=".article3-modal" srcset="img/team_mini-382.png 382w, img/team_mini-720.png 720w, img/team_mini-992.png 992w" sizes="100vw" alt="Third Project Picture">
+                </div>
+                <div class="background-fog"></div>
+                <a class="project-link" href="https://github.com/udacity/Bokeh" target="_blank">
+                    <div class="project-description text-center">
+                        <p class="project-text text-uppercase">Bookeh</p>
+                        <p class="project-link">https://github.com/udacity/Bokeh</p>
+                    </div>
+                </a>
+            </article>
+        </main>
+    </div>
+
+
+    <!-- Modal -->
+    <!-- TODO: Fix model body depending on individual project -->
+    <div class="modal fade article1-modal" role="dialog" tabindex="-1">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Appify</h4>
+                </div>
+                <div class="modal-body">
+                    <p>This section describes the APPIFY application and its capabilities</p>
+                    <a href="https://github.com/udacity/Appify" target="_blank">Link</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade article2-modal" role="dialog" tabindex="-1">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Sunflower</h4>
+                </div>
+                <div class="modal-body">
+                    <p>This section describes the Sunflower application and its capabilities</p>
+                    <a href="https://github.com/udacity/Sunflower" target="_blank">Link</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade article3-modal" role="dialog" tabindex="-1">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Bookeh</h4>
+                </div>
+                <div class="modal-body">
+                    <p>This section describes the Bookeh application and its capabilities</p>
+                    <a href="https://github.com/udacity/Bookeh" target="_blank">Link</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
