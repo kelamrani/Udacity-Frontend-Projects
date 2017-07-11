@@ -37,6 +37,7 @@ The source code was forked from Udacity's Github Repo and the challenge was to o
 Frogger arcade game is a small game created during Udacity's Front-End Web Developer Nanodegree Program. The project's framework was forked from here and the following criteria had to be meet. Additional functionality was added to see how javascript works with HTML5 Canvas.
 
 This game uses HTML5 Canvas, CSS3 and Javascript.
+
 [Click here to see a demo](https://rnaccache.github.io/Udacity-Frontend-Projects/frontend-nanodegree-arcade-game/)
 
 ## frontend-nanodegree-neighborhood
